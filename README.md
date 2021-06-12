@@ -28,7 +28,7 @@ Final scores user rating is calculated as an average of all ratings given by sch
 
 |     Model Architecture                               | BLEU  | User Rating |
 |    --------------------                              | ----- | ----------- |	
-|1. Google Trans;ator                                  | 8.6   |	  2.6      |
+|1. Google Translator                                  | 8.6   |	  2.6      |
 |2. Tamil Translator                                   | 21.6  |    14.6     |
 |3. Tamil Translator + pretrained Embeddings           | 14.9  |    3.1      |      	       			    
 |4. Transformer Translator + pre-trained Embeddings    | 16.1  |    3.8      |

@@ -1,6 +1,9 @@
 # Abstract
 The Tamil language is spoken by 80 million people around the world. The translation between Tamil and English leads to a signiﬁcant impact by helping in the understanding of Tamil scripts, which otherwise would be a tedious, costly, and time-consuming process. Thus, developing an automated system to perform Tamil to English translation would save human time and effort. We publicly release a new high-quality corpus for standard training, evaluation, and report results experiments with two different architectures based on Encoder-Decoder to translate Tamil to English. We further tried to improve it by experimenting with pre- trained word embeddings and tuning hyperparameters. Although Google-Translator also provides Tamil to English and vice versa, our implemented architectures, along with the new dataset, completely outperformed the Google Translator with a margin of 7.5 BLEU score. Moreover, our proposed model solves out of vocabulary and polysemy problems up to a greater extent.
 
+## Paper Preview:
+Feel free to download our paper using this [link](https://drive.google.com/file/d/11AvwDVFWOYZb1ZT1S-sGeYBIgnJzqBvb/view?usp=sharing)
+
 ## Tamil-English-Dataset (Update: 12th June 2021)
 In our experimentation we used 236,427 parallel English - Tamil Sentences, further we add more sentences and to the dataset. The final dataset is divided into six English <--> Tamil parallelly translated files for ease of distribution, please check the dataset folder. If you want to test our latest trained model and other languages we covered, please visit [TranslateMe Network](https://translateme.network/)
 
@@ -34,6 +37,7 @@ Final scores user rating is calculated as an average of all ratings given by sch
 
 
 ## Citation
+If you use our dataset or any other part of the paper, don't forget to cite us using
 
 ```bibtex
 @article{jain2020neural,
